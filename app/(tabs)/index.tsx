@@ -69,15 +69,13 @@ const styles = StyleSheet.create({
     fontFamily: "Poppins_700Bold",
     fontStyle: "normal",
     marginBottom: 8,
-    top: 10,
-    justifyContent: "flex-start",
   },
   subtitle: {
     fontSize: 20,
     color: "#FF8C6C",
     textAlign: "center",
     fontFamily: "Poppins_400Regular",
-    marginBottom: 16,
+    marginBottom: 520,
   },
   image: {
     width: 409,
