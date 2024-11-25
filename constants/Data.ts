@@ -9,3 +9,55 @@ export const DRINKING_DETAILS =["Yes", "Never", "Socially", "Rarely", "Trying to
 export const RELIGIOUS_DETAILS = ["Agnostic","Atheist","Buddhism","Christianity","Hinduism","Islam","Jainism","Spiritual","Sikhism","Prefer Not to Say"]
 
 export const RELATIONSHIP_GOALS_DETAILS = ["Short term","Long term","Life partner", "Casual", "Open", "Still Figuring Out"]
+
+export const STAR_SIGN = [
+    {
+      name: "Aries",
+      image: require("@/assets/images/aries.png"),
+    },
+    {
+      name: "Taurus",
+      image: require("@/assets/images/taurus.png"),
+    },
+    {
+      name: "Gemini",
+      image: require("@/assets/images/gemini.png"),
+    },
+    {
+      name: "Cancer",
+      image: require("@/assets/images/cancer.png"),
+    },
+    {
+      name: "Leo",
+      image: require("@/assets/images/leo.png"),
+    },
+    {
+      name: "Virgo",
+      image: require("@/assets/images/virgo.png"),
+    },
+    {
+      name: "Libra",
+      image: require("@/assets/images/libra.png"),
+    },
+    {
+      name: "Scorpio",
+      image: require("@/assets/images/scorpio.png"),
+    },
+    {
+      name: "Sagittarius",
+      image: require("@/assets/images/sagittarius.png"),
+    },
+    {
+      name: "Capricorn",
+      image: require("@/assets/images/capricorn.png"),
+    },
+    {
+      name: "Aquarius",
+      image: require("@/assets/images/aquarius.png"),
+    },
+    {
+      name: "Pisces",
+      image: require("@/assets/images/pisces.png"),
+    },
+  ]
+  
