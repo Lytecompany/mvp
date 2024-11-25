@@ -13,51 +13,51 @@ export const RELATIONSHIP_GOALS_DETAILS = ["Short term","Long term","Life partne
 export const STAR_SIGN = [
     {
       name: "Aries",
-      image: require("@/assets/images/aries.png"),
+      image: require("../assets/images/StarSignImages/aries.png"),
     },
     {
       name: "Taurus",
-      image: require("@/assets/images/taurus.png"),
+      image: require("../assets/images/StarSignImages/taurus.png"),
     },
     {
       name: "Gemini",
-      image: require("@/assets/images/gemini.png"),
+      image: require("../assets/images/StarSignImages/gemini.png"),
     },
     {
       name: "Cancer",
-      image: require("@/assets/images/cancer.png"),
+      image: require("../assets/images/StarSignImages/cancer.png"),
     },
     {
       name: "Leo",
-      image: require("@/assets/images/leo.png"),
+      image: require("../assets/images/StarSignImages/leo.png"),
     },
     {
       name: "Virgo",
-      image: require("@/assets/images/virgo.png"),
+      image: require("../assets/images/StarSignImages/virgo.png"),
     },
     {
       name: "Libra",
-      image: require("@/assets/images/libra.png"),
+      image: require("../assets/images/StarSignImages/libra.png"),
     },
     {
       name: "Scorpio",
-      image: require("@/assets/images/scorpio.png"),
+      image: require("../assets/images/StarSignImages/scorpio.png"),
     },
     {
       name: "Sagittarius",
-      image: require("@/assets/images/sagittarius.png"),
+      image: require("../assets/images/StarSignImages/sagittarius.png"),
     },
     {
       name: "Capricorn",
-      image: require("@/assets/images/capricorn.png"),
+      image: require("../assets/images/StarSignImages/capricorn.png"),
     },
     {
       name: "Aquarius",
-      image: require("@/assets/images/aquarius.png"),
+      image: require("../assets/images/StarSignImages/aquarius.png"),
     },
     {
       name: "Pisces",
-      image: require("@/assets/images/pisces.png"),
+      image: require("../assets/images/StarSignImages/pisces.png"),
     },
   ]
   

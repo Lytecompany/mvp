@@ -5,14 +5,10 @@ import OtpField from "@/components/OtpInputUserCreation";
 import InputField from "@/components/InputFieldUserCreation";
 import { GENDER_OPTIONS } from "@/constants/Data";
 
-
 const UserCreate = () => {
-  const [selectedGender, setSelectedGender] = useState(GENDER_OPTIONS[1]);
+  const [selectedGender, setSelectedGender] = useState(GENDER_OPTIONS[0]);
   return (
     <View style={styles.container}>
-      <HeaderTitleUserCreation header = "rohan" title = "Rohan"/>
-      <OtpField value = "4"/>
-      <InputField placeholder="Nickname" errorMessage="Please enter a valid Nickname"/>
     </View>
   );
 };
@@ -27,4 +23,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default UserCreate;
+export default UserCreate
