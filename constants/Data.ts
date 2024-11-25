@@ -13,51 +13,51 @@ export const RELATIONSHIP_GOALS_DETAILS = ["Short term","Long term","Life partne
 export const STAR_SIGN = [
     {
       name: "Aries",
-      image: require("../assets/images/StarSignImages/aries.png"),
+      image: require("@/assets/images/StarSignImages/aries.png"),
     },
     {
       name: "Taurus",
-      image: require("../assets/images/StarSignImages/taurus.png"),
+      image: require("@/assets/images/StarSignImages/taurus.png"),
     },
     {
       name: "Gemini",
-      image: require("../assets/images/StarSignImages/gemini.png"),
+      image: require("@/assets/images/StarSignImages/gemini.png"),
     },
     {
       name: "Cancer",
-      image: require("../assets/images/StarSignImages/cancer.png"),
+      image: require("@/assets/images/StarSignImages/cancer.png"),
     },
     {
       name: "Leo",
-      image: require("../assets/images/StarSignImages/leo.png"),
+      image: require("@/assets/images/StarSignImages/leo.png"),
     },
     {
       name: "Virgo",
-      image: require("../assets/images/StarSignImages/virgo.png"),
+      image: require("@/assets/images/StarSignImages/virgo.png"),
     },
     {
       name: "Libra",
-      image: require("../assets/images/StarSignImages/libra.png"),
+      image: require("@/assets/images/StarSignImages/libra.png"),
     },
     {
       name: "Scorpio",
-      image: require("../assets/images/StarSignImages/scorpio.png"),
+      image: require("@/assets/images/StarSignImages/scorpio.png"),
     },
     {
       name: "Sagittarius",
-      image: require("../assets/images/StarSignImages/sagittarius.png"),
+      image: require("@/assets/images/StarSignImages/sagittarius.png"),
     },
     {
       name: "Capricorn",
-      image: require("../assets/images/StarSignImages/capricorn.png"),
+      image: require("@/assets/images/StarSignImages/capricorn.png"),
     },
     {
       name: "Aquarius",
-      image: require("../assets/images/StarSignImages/aquarius.png"),
+      image: require("@/assets/images/StarSignImages/aquarius.png"),
     },
     {
       name: "Pisces",
-      image: require("../assets/images/StarSignImages/pisces.png"),
+      image: require("@/assets/images/StarSignImages/pisces.png"),
     },
   ]
   
