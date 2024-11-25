@@ -1,16 +1,22 @@
-import { View, Text } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 import React from "react";
-import NavigationArrowBack from "@/components/NavigationArrowBack";
-import NavigationArrowFront from "@/components/NavigationArrowFront";
-
 
 const UserCreate = () => {
-  return ( 
-  <View>
-    <NavigationArrowFront/> 
-    <NavigationArrowBack/>
-  </View>
+  return (
+    <View>
+      <Text>UserCreate</Text>
+    </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    paddingTop: 82, // Top padding to avoid overlap with status bar
+    padding: 37,
+    backgroundColor: '#FFF',
+  },
+});
+
 
 export default UserCreate
