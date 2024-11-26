@@ -15,7 +15,11 @@ const ProfileCircle: React.FC<ProfileCircleProps> = ({
 }) => {
   return (
     <View style={[styles.circle, isHighlighted && styles.highlight]}>
-      <Image source={{ uri: imageSource }} style={[styles.image, imageStyle]} />
+      <Image source={
+          imageSource
+            ? { uri: imageSource } // Remote image
+            : require("../../assets/images/2.png") // Default local image
+        } style={[styles.image, imageStyle]} />
     </View>
   );
 };
