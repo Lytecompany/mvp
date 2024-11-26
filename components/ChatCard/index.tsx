@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleProp, ViewStyle } from "react-native";
+import { View, Text, StyleProp, ViewStyle, ScrollView } from "react-native";
 import styles from "./styles";
 
 interface CardProps {
@@ -12,7 +12,9 @@ const Card: React.FC<CardProps> = ({ title, children, containerStyle }) => {
   return (
     <View style={[styles.cardContainer, containerStyle]}>
       <Text style={styles.title}>{title}</Text>
-      <View style={styles.contentContainer}>{children}</View>
+      <ScrollView>
+        <View style={styles.contentContainer}>{children}</View>
+      </ScrollView>
     </View>
   );
 };
