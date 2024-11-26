@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Image } from "react-native";
+import {  View, Text, StyleSheet, Image, ScrollView } from "react-native";
 import React, { useState } from "react";
 import HeaderTitleUserCreation from "@/components/HeaderTitleUserCreation";
 import OtpField from "@/components/OtpInputUserCreation";
@@ -8,6 +8,7 @@ import UnitToggle from "@/components/ToggleButtonUserCreation";
 import ProfileCircle from "@/components/LikesYouComponentChatPage";
 import Card from "@/components/ChatCard";
 import ChatItem from "@/components/ChatItem";
+
 
 
 
@@ -22,17 +23,17 @@ const UserCreate = () => {
   ];
   
   return (
-    <View style={styles.container}>
-      <View style = {styles1.container}>
-      <ProfileCircle isHighlighted = {true}/>
-      <ProfileCircle/>
-      <ProfileCircle/>
-      </View>
-      <Card title="Chats">
-        {chats.map((chat, index) => (
-          <ChatItem key={index} name={chat.name} message={chat.message} />
-        ))}
-      </Card>
+    <View style = {styles.container}>
+        <View style = {styles1.container}>
+        <ProfileCircle isHighlighted = {true}/>
+        <ProfileCircle/>
+        <ProfileCircle/>
+        </View>
+        <Card title="Chats">
+          {chats.map((chat, index) => (
+            <ChatItem key={index} name={chat.name} message={chat.message} />
+          ))}
+        </Card> 
     </View>
   );
 };
