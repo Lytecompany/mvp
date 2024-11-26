@@ -4,6 +4,7 @@ import HeaderTitleUserCreation from "@/components/HeaderTitleUserCreation";
 import OtpField from "@/components/OtpInputUserCreation";
 import InputField from "@/components/InputFieldUserCreation";
 import { GENDER_OPTIONS, STAR_SIGN } from "@/constants/Data";
+import UnitToggle from "@/components/ToggleButtonUserCreation";
 
 
 const UserCreate = () => {
@@ -11,7 +12,7 @@ const UserCreate = () => {
   
   return (
     <View style={styles.container}>
-      <Image source ={STAR_SIGN[2].image}/>
+      <UnitToggle/>
     </View>
   );
 };
