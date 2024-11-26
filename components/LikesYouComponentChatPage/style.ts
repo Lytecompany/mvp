@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
     borderColor: "#FF798D", // Highlight color (pink/red)
   },
   image: {
-    width: 70,
-    height: 70,
+    width: 100,
+    height: 100,
     //resizeMode: "cover", // Ensure the image covers the circle
     borderRadius: 35,
   },
