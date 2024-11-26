@@ -5,6 +5,7 @@ import OtpField from "@/components/OtpInputUserCreation";
 import InputField from "@/components/InputFieldUserCreation";
 import { GENDER_OPTIONS, STAR_SIGN } from "@/constants/Data";
 import UnitToggle from "@/components/ToggleButtonUserCreation";
+import ProfileCircle from "@/components/LikesYouComponentChatPage";
 
 
 const UserCreate = () => {
@@ -12,17 +13,18 @@ const UserCreate = () => {
   
   return (
     <View style={styles.container}>
-      <UnitToggle/>
+      <ProfileCircle imageSource= {require("../../../assets/images/2.png")} isHighlighted = {true}/>
+      <ProfileCircle imageSource= {require("@/assets/images/2.png")} isHighlighted = {true}/>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    paddingTop: 82, // Top padding to avoid overlap with status bar
-    padding: 37,
-    backgroundColor: '#FFF',
+    flexDirection: "row",
+    justifyContent: "space-around",
+    padding: 16,
+    backgroundColor: "#FFF",
   },
 });
 
