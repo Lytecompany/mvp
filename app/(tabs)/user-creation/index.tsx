@@ -7,20 +7,32 @@ import InputField from "@/components/InputFieldUserCreation";
 import { GENDER_OPTIONS, STAR_SIGN } from "@/constants/Data";
 import UnitToggle from "@/components/ToggleButtonUserCreation";
 import ProfileCircle from "@/components/LikesYouComponentChatPage";
-// import Card from "@/components/ChatCard";
 import ChatItem from "@/components/ChatItem";
 import ProfileCard from "@/components/ProfilePicturesCard";
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import ProfileInfoCard from "@/components/ProfileInfoCard";
 
 
 
 
 const UserCreate = () => {
-const photo1 = require('@/assets/images/2.png');
-const photo2 = require('@/assets/images/StarSignImages/gemini.png');
-const photo3 = require('@/assets/images/StarSignImages/aries.png');
-const photo4 = require('@/assets/images/StarSignImages/cancer.png');
-  const [isModalVisible, setModalVisible] = useState(false);
+
+  const sampleProfileData = {
+    gender: "Transgender",
+    height: "5'4''",
+    sexualOrientation: "Demi-sexual",
+    smoking: "Only When Stressed",
+    drinking: "Trying to Cut Back",
+    relationshipGoal: "Still Figuring Out",
+    religion: "Christianity",
+    starSign: "Sagittarius",
+  };
+
+// const photo1 = require('@/assets/images/2.png');
+// const photo2 = require('@/assets/images/StarSignImages/gemini.png');
+// const photo3 = require('@/assets/images/StarSignImages/aries.png');
+// const photo4 = require('@/assets/images/StarSignImages/cancer.png');
+//   const [isModalVisible, setModalVisible] = useState(false);
   
   return (
     // <View style = {styles.container}>
@@ -35,16 +47,21 @@ const photo4 = require('@/assets/images/StarSignImages/cancer.png');
     //       ))}
     //     </Card> 
     // </View>
-    <GestureHandlerRootView style={{ flex: 1 }}>
-    <ScrollView>
-      <View style = {styles.container}>
-      <Stack.Screen options={{ headerShown: false }} />
-      <ProfileCard name="Rohan" age={23} pronouns="He/Him" 
-      photoSource={[photo1, photo2, photo3, photo4]}
-      />
-        </View>
-    </ScrollView>
-    </GestureHandlerRootView>
+    // <GestureHandlerRootView>
+    // <ScrollView>
+    //   <View style = {styles.container}>
+    //   <Stack.Screen options={{ headerShown: false }} />
+    //   <ProfileCard name="Rohan" age={23} pronouns="He/Him" 
+    //   photoSource={[photo1, photo2, photo3, photo4]}
+    //   />
+    //     </View>
+    // </ScrollView>
+    // </GestureHandlerRootView>
+
+  <View style={styles.container}>
+    <ProfileInfoCard profileData={sampleProfileData} />
+  </View>
+
   );
 
 };
@@ -62,4 +79,4 @@ const styles = StyleSheet.create({
 });
 
 
-export default UserCreate
+export default UserCreate;
