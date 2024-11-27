@@ -11,22 +11,23 @@ import ChatItem from "@/components/ChatItem";
 import ProfileCard from "@/components/ProfilePicturesCard";
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import ProfileInfoCard from "@/components/ProfileInfoCard";
+import ProfileMediaCard from "@/components/ProfileMediaCard";
 
 
 
 
 const UserCreate = () => {
 
-  const sampleProfileData = {
-    gender: "Transgender",
-    height: "5'4''",
-    sexualOrientation: "Demi-sexual",
-    smoking: "Only When Stressed",
-    drinking: "Trying to Cut Back",
-    relationshipGoal: "Still Figuring Out",
-    religion: "Christianity",
-    starSign: "Sagittarius",
-  };
+  // const sampleProfileData = {
+  //   gender: "Transgender",
+  //   height: "5'4''",
+  //   sexualOrientation: "Demi-sexual",
+  //   smoking: "Only When Stressed",
+  //   drinking: "Trying to Cut Back",
+  //   relationshipGoal: "Still Figuring Out",
+  //   religion: "Christianity",
+  //   starSign: "Sagittarius",
+  // };
 
 // const photo1 = require('@/assets/images/2.png');
 // const photo2 = require('@/assets/images/StarSignImages/gemini.png');
@@ -59,7 +60,9 @@ const UserCreate = () => {
     // </GestureHandlerRootView>
 
   <View style={styles.container}>
-    <ProfileInfoCard profileData={sampleProfileData} />
+    {/* <ProfileInfoCard profileData={sampleProfileData} /> */}
+    <ProfileMediaCard mediaSource={require("@/assets/images/rohan.png")} // Replace with your media path
+        caption="Out in the Open"/>
   </View>
 
   );
