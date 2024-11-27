@@ -12,6 +12,7 @@ import ProfileCard from "@/components/ProfilePicturesCard";
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import ProfileInfoCard from "@/components/ProfileInfoCard";
 import ProfileMediaCard from "@/components/ProfileMediaCard";
+import AudioCard from "@/components/ProfileAudioCard";
 
 
 
@@ -61,7 +62,7 @@ const UserCreate = () => {
 
   <View style={styles.container}>
     {/* <ProfileInfoCard profileData={sampleProfileData} /> */}
-    <ProfileMediaCard mediaSource={require("@/assets/images/rohan.png")} // Replace with your media path
+    <AudioCard audioSource={require("@/assets/voice/rohan.mp3")} // Replace with your audio file
         caption="Out in the Open"/>
   </View>
 
